@@ -1,0 +1,15 @@
+{
+        acme_dns cloudflare {$CLOUDFLARE_API_TOKEN}
+}
+
+status.fishhawk.top {
+        reverse_proxy uptime-kuma:3001
+}
+
+books.fishhawk.top {
+        reverse_proxy {$VPS_CORE_IP}:80
+}
+
+monitor.fishhawk.top {
+        reverse_proxy {$VPS_CORE_IP}:3000
+}
