@@ -14,7 +14,6 @@
 创建并编辑 `.env` 文件，内容如下:
 
 ```bash
-VPS_CORE_IP=                    # core VPS 的 IP 地址
 CLOUDFLARE_API_TOKEN=           # Cloudflare 的 API token
 ```
 

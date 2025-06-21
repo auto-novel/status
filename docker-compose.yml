@@ -13,7 +13,6 @@ services:
   caddy:
     image: caddybuilds/caddy-cloudflare:2.10.0
     environment:
-      - VPS_CORE_IP
       - CLOUDFLARE_API_TOKEN
     cap_add:
       - NET_ADMIN

@@ -7,9 +7,9 @@ status.fishhawk.top {
 }
 
 books.fishhawk.top {
-        reverse_proxy {$VPS_CORE_IP}:80
+        reverse_proxy core:80
 }
 
 monitor.fishhawk.top {
-        reverse_proxy {$VPS_CORE_IP}:3000
+        reverse_proxy core:3000
 }
